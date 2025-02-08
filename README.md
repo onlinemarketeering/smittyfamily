@@ -1,4 +1,27 @@
-<p align="center">
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <a class="navbar-brand abs" href="#">Navbar 1</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="collapsingNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="//codeply.com">Codeply</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#myAlert" data-toggle="collapse">Link</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="" data-target="#myModal" data-toggle="modal">About</a>
+            </li>
+        </ul>
+    </div>
+</nav><p align="center">
     <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
 </p>
 
